@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root {
+    --primary-color: #396e94;
+    --secondary-color: #e7c24f;
+    --accent1-color: #a43312;
+    --accent2-color: #381d2a;
+    --heading-font: 'Roboto serif',serif; 
+    --paragraph-font: 'Roboto',serif;
+    --nav-background-color: #e7c24f ;
+    --nav-link-color:#396e94 ;
+    --nav-hover-link-color: #a43312;
+    --nav-hover-background-color: #381d2a;
+}
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--text-color);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--secondary-color);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a img {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+}
+
+/* Remove underline from social media links */
+a {
+    text-decoration: none;
+}
+
+/* Hero Container Styles */
+.hero {
+    position: relative;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: var(--hero-overlay-color);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hero article p {
+    margin: 0;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 20px;
+}
