@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Form</title>
+  <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+  <h1>HTML & CSS Quiz</h1>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Quiz Questions</legend>
+
+      <!-- Question 1: Text Input -->
+      <label for="q1">1. What is the purpose of the <input> element in HTML?</label>
+      <input type="text" id="q1" name="q1">
+
+      <!-- Question 2: Textarea -->
+      <label for="q2">2. Describe the CSS box model:</label>
+      <textarea id="q2" name="q2" rows="4" cols="50"></textarea>
+
+      <!-- Question 3: Select -->
+      <label for="q3">3. Which of the following are HTML elements?</label>
+      <select id="q3" name="q3">
+        <option value="" selected disabled>Choose One ...</option>
+        <option value="elements">Elements</option>
+        <option value="attributes">Attributes</option>
+        <option value="both">Both</option>
+      </select>
+
+      <!-- Question 4: Number Input -->
+      <label for="q4">4. How many primary colors are there in the RGB color model?</label>
+      <input type="number" id="q4" name="q4" min="1" max="10">
+
+      <!-- Submit Button -->
+      <button type="submit">Submit Quiz</button>
+    </fieldset>
+  </form>
+</body>
+</html>
