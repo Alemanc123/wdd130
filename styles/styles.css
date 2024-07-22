@@ -41,7 +41,6 @@ p   {
     padding: 0;
 }
 
-main{};
 
 
 aside {
@@ -82,6 +81,11 @@ aside h2 {
     position: absolute;
     top: 0;
     left: 100px;
+}
+
+header, footer, .grid {
+    margin: 0 auto;
+    max-width: 840px;
 }
 
 .grid {
