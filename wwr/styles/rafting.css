@@ -95,6 +95,7 @@ a {
 }
 
 .hero article img {
+    float: left;
     margin-left: 20px;
 }
 
