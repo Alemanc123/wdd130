@@ -73,7 +73,7 @@ a {
 }
 
 .hero h1 {
-    position: absolute;
+    position: relative;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -95,6 +95,16 @@ a {
 }
 
 .hero article img {
-    float: right;
+    float: top;
     margin-left: 20px;
 }
+
+.header{
+    display: grid;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    }
