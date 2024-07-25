@@ -160,3 +160,83 @@ a {
         background-color: #f9f9f9;
     }
     
+    hero {
+        position: relative;
+        width: 100%;
+    }
+    
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+    
+   
+    
+    .newsletter {
+        padding: 20px;
+        text-align: center;
+        background-color: #f4f4f4;
+    }
+    
+    .newsletter form {
+        display: inline-block;
+        text-align: left;
+    }
+    
+    .newsletter label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+    
+    .newsletter input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .newsletter button {
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .cta {
+        padding: 20px;
+        text-align: center;
+        background-color: #e2e2e2;
+    }
+    
+    .cta-button {
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+    
+    .grid-item {
+        text-align: center;
+    }
+    
+    .grid-item img {
+        width: 100%;
+        height: auto;
+    }
+    
+    footer {
+        padding: 10px 0;
+        background-color: #333;
+        color: white;
+        text-align: center;
+    }
